@@ -18,7 +18,7 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/automount package
 svn co https://github.com/openwrt/packages/trunk/utils/antfs-mount package/utils/antfs-mount
 svn co https://github.com/openwrt/packages/trunk/kernel/antfs package/kernel/antfs
 # cpufreq
-svn co https://github.com/immortalwrt/immortalwrt/branches/openwrt-21.02/package/lean/luci-app-cpufreq package/new/luci-app-cpufreq
+svn co https://github.com/immortalwrt/luci/branches/openwrt-21.02/applications/luci-app-cpufreq package/new/luci-app-cpufreq
 # DDNS
 rm -rf ./feeds/packages/net/ddns-scripts
 rm -rf ./feeds/luci/applications/luci-app-ddns
@@ -87,7 +87,7 @@ sed -i '/builddir dependencies/a\$(curdir)/upx/compile := $(curdir)/ucl/compile'
 # USB Printer
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-usb-printer package/new/luci-app-usb-printer
 # vlmcsd
-svn co https://github.com/immortalwrt/immortalwrt/branches/openwrt-21.02/package/lean/luci-app-vlmcsd package/new/luci-app-vlmcsd
+svn co https://github.com/immortalwrt/luci/branches/openwrt-21.02/applications/luci-app-vlmcsd package/new/luci-app-vlmcsd
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/vlmcsd package/lean/vlmcsd
 # xlnetacc
 git clone -b main --depth 1 --single-branch https://github.com/Beginner-Go/luci-app-xlnetacc package/new/luci-app-xlnetacc
