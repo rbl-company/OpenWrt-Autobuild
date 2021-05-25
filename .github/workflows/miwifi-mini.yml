@@ -1,4 +1,4 @@
-name: Xiaomi-MiWifi-Mini-0526
+name: Xiaomi-MiWifi-Mini
 
 on:
   repository_dispatch:
