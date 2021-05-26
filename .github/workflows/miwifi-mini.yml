@@ -1,5 +1,6 @@
 name: Xiaomi-MiWifi-Mini
 
+
 on:
   repository_dispatch:
     types: miwifi-mini-build
